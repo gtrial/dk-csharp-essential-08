@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.809.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tesk02", "tesk02\tesk02.csproj", "{9DC5BE37-127E-4780-9DC9-D9EE99CD38E3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task03", "task03\task03.csproj", "{139BA3A6-F7B6-42C3-A22A-4978DADDAFE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task02", "task02\task02.csproj", "{FEBDF946-F7CD-48F0-B830-D60A15122AB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9DC5BE37-127E-4780-9DC9-D9EE99CD38E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9DC5BE37-127E-4780-9DC9-D9EE99CD38E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9DC5BE37-127E-4780-9DC9-D9EE99CD38E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9DC5BE37-127E-4780-9DC9-D9EE99CD38E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{139BA3A6-F7B6-42C3-A22A-4978DADDAFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{139BA3A6-F7B6-42C3-A22A-4978DADDAFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{139BA3A6-F7B6-42C3-A22A-4978DADDAFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{139BA3A6-F7B6-42C3-A22A-4978DADDAFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBDF946-F7CD-48F0-B830-D60A15122AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBDF946-F7CD-48F0-B830-D60A15122AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBDF946-F7CD-48F0-B830-D60A15122AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBDF946-F7CD-48F0-B830-D60A15122AB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
