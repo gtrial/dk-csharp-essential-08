@@ -6,10 +6,11 @@ namespace task03
     {
         private static void Main()
         {
-            //Создайте перечисление, в котором будут содержаться должности сотрудников как имена констант.
-            //Присвойте каждой константе значение, задающее количество часов, которые должен отработать сотрудник за месяц.
-            //Создайте класс Accauntant с методом bool AskForBonus(Post worker, int hours), отражающее давать или нет сотруднику премию.
-            //Если сотрудник отработал больше положеных часов в месяц, то ему положена премия.
+            Accountant accountant = new Accountant();
+            int workedHours = 100;
+            Console.WriteLine(accountant.AskForBonus(Accountant.Position.Junior, workedHours));
+            Console.WriteLine(accountant.AskForBonus(Accountant.Position.Middle, workedHours));
+            Console.WriteLine(accountant.AskForBonus(Accountant.Position.Senior, workedHours));
         }
     }
 }
